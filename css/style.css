@@ -35,11 +35,9 @@ header {
   height: 0.2vh;
   border: none;
   margin-bottom: 4vh;
-}
-
-.titles .line {
   background-color: #007bff;
 }
+
 .titles p {
   text-align: center;
   font-size: 1.3em;
@@ -58,12 +56,31 @@ button {
   display: block;
   margin: auto;
   color: #333;
+  background-color: none;
 }
 button:hover {
   background-color: #777;
   color: white;
 }
 nav {
-  height: 10vh;
   background-color: #007bff;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav ul {
+  display: flex;
+  margin: auto;
+  width: 40vh;
+  justify-content: space-between;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+nav li {
+  list-style: none;
+}
+
+nav a:hover {
+  color: #0212a2;
 }
