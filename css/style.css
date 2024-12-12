@@ -164,3 +164,14 @@ footer {
   color: #777;
   text-align: center;
 }
+.contact-socials {
+  width: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 6vh;
+}
+.contact-socials img {
+  width: 4vh;
+}
