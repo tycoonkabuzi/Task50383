@@ -111,3 +111,21 @@ h4 {
   text-align: center;
   padding-bottom: 6vh;
 }
+.portfolio {
+  background-color: #f2f1ed;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+.galery-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-image {
+  width: 36vh;
+  margin: auto;
+}
+.container-image img {
+  width: 100%;
+}
