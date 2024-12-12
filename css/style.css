@@ -157,3 +157,10 @@ textarea[name="message"] {
   margin-top: 1vh;
   margin-bottom: 1vh;
 }
+footer {
+  background-color: #f2f1ed;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  color: #777;
+  text-align: center;
+}
