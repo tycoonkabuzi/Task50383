@@ -110,6 +110,7 @@ h4 {
   color: #333;
   text-align: center;
   padding-bottom: 6vh;
+  line-height: 1.4em;
 }
 .portfolio {
   background-color: #f2f1ed;
@@ -128,4 +129,31 @@ h4 {
 }
 .container-image img {
   width: 100%;
+}
+
+.contact {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+form {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+input,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  width: 49%;
+  border: 1px solid #adadad;
+  height: 5vh;
+  padding-left: 1vh;
+}
+textarea[name="message"] {
+  height: 10vh;
+  width: 100%;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
