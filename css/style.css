@@ -36,6 +36,7 @@ header {
   border: none;
   margin-bottom: 4vh;
   background-color: #007bff;
+  margin-top: 2vh;
 }
 
 .titles p {
@@ -83,4 +84,30 @@ nav li {
 
 nav a:hover {
   color: #0212a2;
+}
+.about {
+  padding-top: 20vh;
+  width: 100vh;
+  margin: auto;
+  padding-bottom: 20vh;
+}
+h4 {
+  font-size: 3vh;
+  font-weight: 200;
+  text-align: center;
+  color: #333;
+}
+.about-image {
+  margin: auto;
+  width: 50vh;
+  margin-bottom: 6vh;
+}
+.about-image img {
+  width: 100%;
+  border-radius: 50vh;
+}
+.about-text {
+  color: #333;
+  text-align: center;
+  padding-bottom: 6vh;
 }
