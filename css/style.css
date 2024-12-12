@@ -85,9 +85,13 @@ nav li {
 nav a:hover {
   color: #0212a2;
 }
+.menu {
+  color: white;
+  margin-left: 90%;
+}
 .about {
   padding-top: 20vh;
-  width: 100vh;
+  width: 80%;
   margin: auto;
   padding-bottom: 20vh;
 }
@@ -124,7 +128,7 @@ h4 {
   flex-wrap: wrap;
 }
 .container-image {
-  width: 36vh;
+  width: 24%;
   margin: auto;
   position: relative;
 }
@@ -191,4 +195,74 @@ footer {
 }
 .contact-socials img {
   width: 4vh;
+}
+@media screen and (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .titles h1 {
+    font-size: 3em;
+  }
+  button {
+    font-size: 0.7em;
+  }
+  form {
+    width: 80%;
+  }
+  .container-image {
+    width: 50%;
+  }
+  .about-image {
+    width: 60%;
+  }
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  button {
+    font-size: 0.7em;
+  }
+  form {
+    width: 90%;
+  }
+  .container-image {
+    width: 100%;
+  }
+  .about-image {
+    width: 80%;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .titles h1 {
+    font-size: 2.9em;
+  }
+
+  button {
+    font-size: 0.6em;
+  }
+  .container-image {
+    width: 200%;
+  }
+  .about-image {
+    width: 60%;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 1vh;
+  }
+  form {
+    width: 95%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  nav li {
+    display: none;
+  }
 }
