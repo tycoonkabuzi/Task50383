@@ -99,12 +99,12 @@ h4 {
 }
 .about-image {
   margin: auto;
-  width: 50vh;
+  width: 40%;
   margin-bottom: 6vh;
 }
 .about-image img {
   width: 100%;
-  border-radius: 50vh;
+  border-radius: 100%;
 }
 .about-text {
   color: #333;
@@ -126,7 +126,24 @@ h4 {
 .container-image {
   width: 36vh;
   margin: auto;
+  position: relative;
 }
+.container-image:hover::before {
+  content: "Projekt";
+  background-color: rgba(0, 123, 255, 0.8);
+  width: 36vh;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  color: white;
+  font-size: 5vh;
+  box-sizing: border-box;
+  padding-top: 7vh;
+  z-index: 1;
+  cursor: pointer;
+}
+
 .container-image img {
   width: 100%;
 }
