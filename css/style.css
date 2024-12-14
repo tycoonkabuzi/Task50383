@@ -51,14 +51,14 @@ body {
   margin-right: 0.5%;
 }
 .btn-primary {
-  width: 12%;
+  width: 200px;
   border: #007bff solid 1px;
   display: block;
   margin: auto;
   color: #333;
   text-decoration: none;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 .btn-primary:hover {
@@ -75,10 +75,10 @@ body {
 .main-nav ul {
   display: flex;
   margin: auto;
-  width: 40vh;
+  width: 20%;
   justify-content: space-between;
-  padding-bottom: 2vh;
-  padding-top: 2vh;
+  padding-bottom: 1.5%;
+  padding-top: 1.5%;
 }
 .main-nav li {
   list-style: none;
@@ -89,13 +89,13 @@ body {
 }
 .menu {
   color: white;
-  margin-left: 90%;
+  margin-left: 150px;
 }
 .about {
-  padding-top: 20vh;
+  padding-top: 8%;
   width: 80%;
   margin: auto;
-  padding-bottom: 20vh;
+  padding-bottom: 8%;
 }
 h2 {
   font-size: 3vh;
@@ -105,7 +105,7 @@ h2 {
 }
 .about-image {
   margin: auto;
-  width: 25%;
+  width: 30%;
   margin-bottom: 6vh;
 }
 .about-image img {
@@ -122,8 +122,8 @@ h2 {
 }
 .portfolio {
   background-color: #f2f1ed;
-  padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 .galery-container {
   width: 80%;
@@ -157,8 +157,8 @@ h2 {
 }
 
 .contact {
-  padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 .contact form {
   width: 40%;
@@ -224,6 +224,9 @@ textarea[name="message"] {
   .menu {
     display: none;
   }
+  .main-nav ul {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 768px) and (min-width: 480px) {
   .btn-primary {
@@ -240,6 +243,9 @@ textarea[name="message"] {
   }
   .menu {
     display: none;
+  }
+  .main-nav ul {
+    width: 50%;
   }
 }
 
